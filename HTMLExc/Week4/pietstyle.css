@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+/* Body attributes is that will be at Viewport Height,
+background will be grey and display will be flex*/
+body{
+    height: 100vh;
+    background-color: #666;
+    display:flex;
+}
+/* .container{
+    display: wrap;
+    border: 3px solid black;
+    height: 860px;
+} */
+/* Column makes flex direction change for that div */
+.column {
+    flex-direction: column;
+  }
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+/* .horizontalLargeRectangule{
+    height: 350px;
+    border: 12px black;
+} */
+.shape{
+    flex-grow: 1;
+        background-color: #fff;
+        min-width: 50px;
+        min-height: 50px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.double{
+    flex-grow: 2;
+}
+.triple{
+    flex-grow: 3;
+}
+
+

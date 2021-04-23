@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #666;
+    display:flex;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+
+
+}
